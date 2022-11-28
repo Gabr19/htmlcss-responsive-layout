@@ -1,0 +1,156 @@
+Aa/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* REGOLE GENERALI */
+
+:root{
+    --first-color: #0084fd;
+    --fisrt-light-color: #b5ddff;
+    --second-color:#9792e4;
+
+    --main-space: 2rem;
+}
+
+.container{
+    width: 600px;
+    margin: 0 auto;
+    padding: 0 var(--main-space);
+}
+
+.box-debug{
+    background-color: var(--fisrt-light-color);
+}
+
+/* HEADER */
+
+header{
+    background-color: var(--first-color);
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.site-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* MAIN */
+
+/* INTRO */
+#intro{
+    padding: var(--main-space) 0;
+}
+
+#intro .cards{
+    display: flex;
+    /* justify-content: space-between; */
+    flex-wrap: wrap;
+    margin: 0 -0.75rem;
+}
+
+#intro .cards .card{
+    width: calc((100% / 3) - 1.5rem);
+    margin-bottom: var(--main-space);
+    margin-left: 0.75rem;
+    margin-right: 0.75rem;
+    background-color: var(--fisrt-light-color);
+
+
+}
+
+#intro .cards .card:first-child {
+    width: calc(((100% / 3) * 2) - 1.5rem);
+    display: flex;
+    justify-content: space-between;
+}
+
+#intro .cards .card:first-child > * {
+    width: 50%;
+}
+
+/* PLANNING */
+
+#planning{
+    padding: var(--main-space) 0;
+    background-color: var(--second-color);
+}
+
+#planning .my-row{
+    display: flex;
+    align-items: flex-end;
+    padding: 0 3rem;
+
+}
+
+#planning .my-row .my-col{
+    width: 50%;
+}
+
+/*TESTIMONIALS */
+
+#testimonials{
+    padding: var(--main-space) 0;
+}
+
+#testimonials .container > * {
+    margin-bottom: var(--main-space);
+}
+
+#testimonials .card {
+    background-color: var(--second-color);
+    padding: 1rem;
+    display: flex;
+}
+
+
+/*  BENEFITS*/
+
+#benefits{
+    padding: var(--main-space) 0;
+    background-color: var(--second-color);
+}
+
+#benefits .my-row{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -0.75rem;
+}
+
+#benefits .my-row .my-col{
+    width: calc((100% / 3) - 1.5rem);
+    margin-bottom: var(--main-space);
+    margin-left: 0.75rem;
+    margin-right: 0.75rem;
+    background-color: var(--fisrt-light-color);
+}
+
+
+
+
+/* MEDIA QUERY */
+/* DA MOBILE A TABLET */
+
+@media screen and (min-width: 480px ) {
+    .container{
+        max-width: 750px;
+
+    }
+}
+
+/* DA TABLET A DESKTOP */
+
+@media screen and (min-width: 768px ) {
+    .container{
+        max-width: 1000px;
+
+    }
+}
