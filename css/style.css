@@ -1,4 +1,4 @@
-Aa/* RESET */
+/* RESET */
 *{
     margin: 0;
     padding: 0;
@@ -133,7 +133,66 @@ header{
     background-color: var(--fisrt-light-color);
 }
 
+/* ABOUT-US */
 
+#about-us .container{
+    margin-top: var(--main-space);
+}
+
+#about-us .my-col{
+    display: flex;
+
+}
+
+#about-us .my-col div:first-child{
+    width: 70%;
+}
+
+#about-us .my-col div:not(:first-child){
+    width: 30%;
+}
+
+
+/* PRICING */
+
+#pricing {
+    background-color: var(--second-color);
+
+
+}
+
+#pricing .container{
+    display: flex;
+    margin-top: var(--main-space);
+    justify-content: center;
+
+}
+
+#pricing .container .my-row{
+    width: 50%;
+    text-align: center;
+}
+
+
+
+/* FOOTER */
+
+footer {
+    background-color: #333333;
+}
+
+
+footer .container{
+    display: flex;
+    margin-top: var(--main-space);
+    justify-content: center;
+
+}
+
+footer .container .my-row{
+    width: 50%;
+    text-align: center;
+}
 
 
 /* MEDIA QUERY */
