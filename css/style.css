@@ -103,6 +103,49 @@ header{
     width: 50%;
 }
 
+.card div > *:not(:last-child){
+    padding: 30px 10px;
+    
+}
+
+#intro .card-img{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+#intro .card-img img{
+    width: 50%;
+}
+
+/* CARD STYLE */
+#intro .card-style > div{
+    display: flex;
+    justify-content: center;
+
+}
+
+#intro .card-style > div > i{
+    font-size: 50px;
+    color: var(--first-color);
+    
+}
+
+#intro .card-style> *{
+    text-align: center;
+    padding: 1rem;
+}
+
+#intro .card-style h3{
+    color: var(--first-color);
+}
+/* FINE CARD STYLE */
+
+
+
+
+
+
 /* PLANNING */
 
 #planning{
