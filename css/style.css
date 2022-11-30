@@ -393,6 +393,29 @@ object-fit: cover;
     text-align: center;
 }
 
+#pricing .my-col .up> *{
+    padding: 30px;
+    color: white;
+}
+
+#pricing .my-col .bottom> *:not(button){
+    padding: 30px;
+    color: white;
+}
+
+#pricing .my-col .up h2{
+    padding: 30px;
+    color: white;
+    font-size: 2rem;
+}
+
+#pricing .my-col .up h1{
+    padding: 30px;
+    color: #fdc15f;
+    font-size: 4rem;
+}
+
+
 
 
 /* FOOTER */
