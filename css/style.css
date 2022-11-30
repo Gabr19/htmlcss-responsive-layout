@@ -91,6 +91,7 @@ header{
     margin-left: 0.75rem;
     margin-right: 0.75rem;
     background-color: var(--fisrt-light-color);
+    border-radius: 30px;
 
 
 }
@@ -330,6 +331,46 @@ display: flex;
 #about-us .my-col div:not(:first-child){
     width: 30%;
 }
+
+#about-us .my-col .right{
+    height: 400px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#about-us .my-col .left h2{
+    color: var(--second-color);
+    font-size: 2rem;
+}
+
+#about-us .my-col .left > * {
+    margin: 30px;
+}
+
+#about-us .my-col .right img{
+width: 50%;
+height: 50%;
+border-radius: 50%;
+padding: 10px 10px;
+object-fit: cover;
+
+}
+
+#about-us .my-col .right h4{
+    color: var(--second-color);
+    padding: 0 20px;
+    text-align: center;
+}
+
+#about-us .my-col .right button{
+    background-color: var(--second-color);
+    color: white;
+    margin-top: 10px;
+}
+
+
 
 
 /* PRICING */
