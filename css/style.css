@@ -437,6 +437,11 @@ footer .container .my-row{
     text-align: center;
 }
 
+footer .container .my-col> *{
+    color: white;
+    padding: 20px;
+}
+
 
 /* MEDIA QUERY */
 
